@@ -1,97 +1,105 @@
-# Skyline Digital Labs — Website v2
+# Skyline Digital Labs
 
-A redesigned, fully working version of the Skyline Digital Labs website, built with
-real company data (logo, projects, contact details) pulled from the original site.
+## About Us
 
-## What's real vs. what's new
+Skyline Digital Labs is a digital solutions company based in Ahmedabad, Gujarat, India.
 
-**Pulled directly from the real company** (from the site, and your screen recording):
-- Real logo (images/logo.png)
-- Real tagline: "A digital solutions company"
-- Real contact details: info@skylinedigitallabs.in, +91 70163 88668, Ahmedabad, Gujarat
-- Real LinkedIn and Instagram links
-- Real project names, images and category tags: Fire Buns, Aurora Mist, Kennies, Alex Portz Website
-- Real FAQ questions and answers (project timeline, services offered, etc.)
-- Real nav structure: Home, About, Services, Projects, Contact
+We help businesses, startups, organizations, and individuals build strong digital experiences through modern technology and creative solutions.
 
-**New / unique to this version** (not copied from the original):
-- The audience toggle ("I'm a business" / "I'm a student")
-- The lighting-up skyline hero animation
-- The "From blueprint to skyline" process section
-- The Careers section
-- All service/project descriptions, taglines and quotes — rewritten in fresh words
-- The success popup, animated FAQ accordion, animated hamburger menu
+Our goal is to provide reliable, practical, and professional digital solutions that help our clients grow and succeed.
 
-## A few honest notes
+## Our Services
 
-- **Project images** are cropped from your screen recording (compressed video),
-  since I can't access the live site's actual image files. Quality is good enough
-  to use, but if you can get the original hi-res project images from the company,
-  swap them into `images/` — same filenames, so nothing else needs to change.
-- **Address** — the real site only listed the city ("Ahmedabad"). I added
-  ", Gujarat, India" for clarity. If there's a real street address, add it in
-  `header.php` (the `$companyAddress` variable near the top).
-- **Awards / recognition** — I did not invent fake awards or certifications, since
-  I have no way to verify what the company has actually received. If you have real
-  ones, tell me and I'll add a proper section for them.
-- **WhatsApp link** uses the real phone number (`wa.me/917016388668`) — test it
-  once live to confirm it opens correctly.
+### Web Development
 
-## Files
+We create modern and responsive websites for businesses, startups, organizations, portfolios, and personal brands.
 
-```
-skyline-v2/
-├── index.php              <- homepage (includes header.php + footer.php)
-├── header.php               <- nav + all real company info in one place at the top
-├── footer.php                <- footer, newsletter box, success toast
-├── contact-handler.php        <- validates the form, SAVES it to data/enquiries.json,
-│                                 also tries to email it
-├── admin.php                   <- simple password-protected page to view submitted
-│                                 enquiries (password: skyline2026 — change this!)
-├── data/enquiries.json          <- where form submissions get saved (created automatically)
-├── preview.html                  <- plain HTML copy, no PHP needed, double-click to view
-├── css/style.css                  <- all styling
-├── js/script.js                    <- all interactivity
-└── images/                          <- logo + real project images
-```
+### Mobile App Development
 
-## How to run it (PHP needs a server)
+We develop user-friendly mobile applications designed around the needs of businesses and their customers.
 
-`preview.html` opens directly in any browser — good for a quick look, but its form
-won't actually save anywhere since that needs PHP.
+### AI Solutions
 
-For the real, fully working version:
-1. Install **XAMPP** (free, xampp.org).
-2. Put the `skyline-v2` folder inside XAMPP's `htdocs` folder.
-3. Start Apache.
-4. Visit `http://localhost/skyline-v2/index.php`.
-5. Submit the contact form, then visit `http://localhost/skyline-v2/admin.php`
-   (password: `skyline2026`) to see it saved — this is how the owner can check
-   enquiries even before email sending is configured.
+We provide practical Artificial Intelligence solutions to help businesses improve productivity, automation, and digital experiences.
 
-## Before going live
+### Cyber Security
 
-- Change the admin password in `admin.php`.
-- Double-check the phone/email/address at the top of `header.php` are still correct.
-- Swap in real, high-resolution project images if you get them from the company.
-- Fill in the Careers section with real open roles (or remove it if there are none).
+We focus on helping businesses improve their digital security and build safer online systems.
 
-## Tools used
+### SEO
 
-HTML5, CSS3, JavaScript, jQuery, PHP (includes, form handling, JSON file storage),
-Bootstrap Icons, Google Fonts (Fraunces + Inter).
+We help businesses improve their online visibility and reach more potential customers through search engine optimization.
 
+### Digital Growth
 
-## Latest visual update
+We help businesses strengthen their online presence and create strategies that support long-term digital growth.
 
-The homepage has been refreshed using the latest supplied reference images:
-- Clear futuristic skyline hero image (no artificial blur)
-- Web/mobile service image
-- AI cybersecurity image
-- Digital marketing image
-- Social media image
-- Placement & training image
-- Supplied reference portrait used in client feedback
-- Three additional distinct illustrated client avatars for the remaining feedback cards
+### Software Development
 
-The feedback cards now show stars only (numeric ratings removed). The awards area has been redesigned as visual cards with milestones, a quote, and service pillars. Two brand/work-related quotes are included across the awards and feedback areas. Responsive spacing, mobile navigation, service imagery, and testimonial presentation have also been polished.
+We develop customized software solutions designed to solve specific business requirements and improve daily operations.
+
+### Cloud Solutions
+
+We provide modern cloud-based solutions that support scalability, accessibility, and business growth.
+
+## Our Mission
+
+Our mission is to provide professional and innovative digital solutions that make technology simple, useful, and accessible for businesses and individuals.
+
+## Our Vision
+
+Our vision is to become a trusted digital technology partner for businesses by delivering quality solutions, creative ideas, and long-term value and also aims to help businesses and individuals use technology to build better digital experiences.
+
+Our vision is to combine:
+
+**Technology + Creativity + Business Strategy**
+
+to create meaningful digital solutions.
+
+## Why Skyline Digital Labs?
+
+- Professional and reliable solutions
+- Modern technology
+- User-focused approach
+- Business-oriented solutions
+- Creative and practical ideas
+- Focus on quality and growth
+- Long-term client relationships
+
+## Who We Serve
+
+We work with:
+
+- Small businesses
+- Startups
+- Established businesses
+- Organizations
+- Entrepreneurs
+- Students
+- Individuals
+- Growing digital brands
+
+## Our Approach
+
+We believe that every business has different requirements.
+
+That's why we focus on understanding the client's needs first and then creating a solution that is practical, effective, and suitable for their goals.
+
+## Location
+
+**Skyline Digital Labs**  
+Ahmedabad, Gujarat, India
+
+## Areas of Expertise
+
+Web Development • Mobile Apps • AI Solutions • Cyber Security • SEO • Digital Growth • Software Development • Cloud Solutions
+
+## Contact
+
+For business enquiries, project discussions, job opportunities, and other information, please contact Skyline Digital Labs through our website.
+
+---
+
+**Skyline Digital Labs**  
+*Technology • Creativity • Growth*
+
